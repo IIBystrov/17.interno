@@ -60,3 +60,19 @@
 	text-transform: capitalize;
 	color: #292f36;
 }
+
+
+/* .text */
+
+.text {
+	font: normal 400 22px/1.5 "Jost", sans-serif;
+	letter-spacing: 0.22px;
+	color: #4d5053;
+}
+
+
+/* .section-header */
+
+.section-header {
+	margin: 0 0 35px;
+}
