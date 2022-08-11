@@ -8,6 +8,8 @@
 	width: 100%;
 	max-width: 1440px;
 
+	margin: 0 auto;
+
 	overflow: hidden;
 
 	background: #ffffff;
@@ -20,6 +22,8 @@
 .inner {
 	width: 100%;
 	max-width: 1200px;
+
+	margin: 0 auto;
 }
 
 
@@ -29,7 +33,7 @@
 	margin: 0 auto 18px;
 	padding: 26px 15px 0;
 
-	max-width: 1200px;
+	width: 100%;
 
 	font: normal 400 20px/1.5 "Jost", sans-serif;
 }
@@ -49,9 +53,12 @@
 .nav__list {
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: stretch;
 	gap: 40px;
+	flex-wrap: wrap;
+
+	width: 100%;
 }
 
 /* .intro */
