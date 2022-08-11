@@ -65,6 +65,8 @@
 
 .intro {
 	position: relative;
+
+	padding: 195px 0 0;
 }
 
 .intro__container {
@@ -73,8 +75,6 @@
 
 	width: 100%;
 	max-width: 600px;
-
-	padding: 195px 0 0;
 }
 
 .intro__bg {
@@ -125,6 +125,8 @@
 /* .btn */
 
 .btn {
+	display: inline-block;
+	
 	padding: 22px 67px 22px 34px;
 
 	background: #292f36;
