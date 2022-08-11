@@ -50,3 +50,13 @@
 .intro__bg {
 	width: 100%;
 }
+
+
+/* .title */
+
+.title {
+	font: normal 400 80px/1.2 "DM Serif Display", serif;
+	letter-spacing: 0.22px;
+	text-transform: capitalize;
+	color: #292f36;
+}
