@@ -63,12 +63,22 @@
 
 /* .intro */
 
+.intro {
+	position: relative;
+}
+
 .intro__container {
 	width: 100%;
 	max-width: 600px;
 }
 
 .intro__bg {
+	display: block;
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+
 	width: 100%;
 }
 
