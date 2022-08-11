@@ -149,6 +149,15 @@
 	flex-wrap: wrap;
 }
 
+.features__item {
+	flex: 0 0 400px;
+
+	padding: 75px 51px 70px;
+
+	text-align: center;
+
+}
+
 .subtitle--min {
 	font: 400 normal 25px/1.56 "DM Serif Display", serif;
 	letter-spacing: 0.22px;
