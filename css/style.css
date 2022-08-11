@@ -1,3 +1,14 @@
 /* Fonts */
 
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter&family=Jost&display=swap");
+
+/* .wrapper */
+
+.wrapper {
+	width: 100%;
+	max-width: 1440px;
+
+	overflow: hidden;
+
+	background: #ffffff;
+}
