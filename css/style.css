@@ -16,19 +16,22 @@
 
 /* .header */
 
+.body__header {
+	margin: 0 auto 18px;
+	padding: 26px 15px 0;
+	
+	max-width: 1200px;
+
+	font: normal 400 20px/1.5 "Jost", sans-serif;
+}
+
 .header {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
 
-	margin: 0 auto 18px;
-	padding: 26px 15px 0;
-
 	width: 100%;
-	max-width: 1200px;
-
-	font: normal 400 20px/1.5 "Jost", sans-serif;
 }
 
 
