@@ -227,3 +227,13 @@
 .about-us__desc *:not(:last-child) {
 	margin: 0 0 10px;
 }
+
+.contacts {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 20px;
+
+	margin: 0 0 50px;
+}
