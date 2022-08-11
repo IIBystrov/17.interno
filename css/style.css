@@ -13,6 +13,9 @@
 	background: #ffffff;
 }
 
+
+/* .header */
+
 .header {
 	display: flex;
 	flex-direction: row;
@@ -23,4 +26,15 @@
 
 	width: 100%;
 	max-width: 1200px;
+}
+
+
+/* .nav */
+
+.nav__list {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: stretch;
+	gap: 40px;
 }
