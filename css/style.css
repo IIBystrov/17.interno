@@ -141,6 +141,14 @@
 
 /* .features */
 
+.features__list {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: stretch;
+	flex-wrap: wrap;
+}
+
 .subtitle--min {
 	font: 400 normal 25px/1.56 "DM Serif Display", serif;
 	letter-spacing: 0.22px;
