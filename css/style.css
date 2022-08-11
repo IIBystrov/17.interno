@@ -137,3 +137,17 @@
 	letter-spacing: 0.72px;
 	color: #ffffff;
 }
+
+
+/* .features */
+
+.subtitle--min {
+	font: 400 normal 25px/1.56 "DM Serif Display", serif;
+	letter-spacing: 0.22px;
+	text-transform: capitalize;
+	color: #292f36;
+}
+
+.features__title {
+	margin: 0 0 17px;
+}
