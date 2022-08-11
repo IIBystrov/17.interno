@@ -171,7 +171,7 @@
 
 .features__desc {
 	margin: 0 0 15px;
-	
+
 	font: normal 400 22px/1.5 "Jost", sans-serif;
 	letter-spacing: 0.22px;
 	color: #4d5053;
@@ -179,4 +179,11 @@
 
 .features__desc *:not(:last-child) {
 	margin: 0 0 10px;
+}
+
+.features__link {
+	font: normal 400 18px/1.5 "Jost", sans-serif;
+	text-transform: capitalize;
+	letter-spacing: 0.36px;
+	color: #4d5053;
 }
