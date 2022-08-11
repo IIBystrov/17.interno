@@ -68,13 +68,18 @@
 }
 
 .intro__container {
+	position: relative;
+	z-index: 2;
+
 	width: 100%;
 	max-width: 600px;
+
+	padding: 195px 0 0;
 }
 
 .intro__bg {
 	display: block;
-	
+
 	position: absolute;
 	top: 0;
 	left: 0;
