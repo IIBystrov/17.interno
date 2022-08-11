@@ -74,6 +74,10 @@
 	color: #4d5053;
 }
 
+.intro__desc *:not(:last-child) {
+	margin: 0 0 10px;
+}
+
 
 /* .section-header */
 
