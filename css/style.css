@@ -327,3 +327,22 @@
 .card__contain *:not(:last-child) {
 	margin: 0 0 10px;
 }
+
+
+/* .brand */
+
+.brand {
+	width: 100%;
+
+	margin: 0 0 100px;
+}
+
+.brand__list {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+
+	width: 100%;
+}
