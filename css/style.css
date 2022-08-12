@@ -624,7 +624,7 @@
 
 .footer__copyright {
 	padding-top: 35px;
-	
+
 	border-top: 1px solid #e5e5e5;
 }
 
@@ -677,4 +677,12 @@
 .footer__contacts {
 	width: 100%;
 	max-width: 321px;
+}
+
+
+/* links */
+
+.active-link,
+.nav__link--active {
+	color: #cda274;
 }
