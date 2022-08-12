@@ -297,3 +297,17 @@
 
 	margin: 0 0 25px;
 }
+
+.card__img-contain {
+	flex: 0 0 77px;
+
+	overflow: hidden;
+
+	border-radius: 50%;
+}
+
+.card__icon {
+	display: block;
+
+	width: 100%;
+}
