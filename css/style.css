@@ -125,6 +125,7 @@
 
 .btn {
 	display: inline-block;
+	margin: 0 auto;
 
 	padding: 22px 67px 22px 34px;
 
@@ -528,7 +529,7 @@
 	justify-content: center;
 	align-items: stretch;
 	flex-wrap: wrap;
-	gap: 20px;
+	gap: 15px;
 
 	width: 100%;
 }
@@ -544,3 +545,53 @@
 }
 
 
+/* .connect */
+
+.connect {
+	width: 100%;
+
+	margin: 0 0 80px;
+	padding: 100px 0 95px;
+
+	background: #292f36;
+	border-radius: 70px;
+
+	text-align: center;
+}
+
+.connect__title {
+	margin: 0 0 9px;
+
+	text-align: center;
+}
+
+.subtitle--contrast {
+	color: #ffffff;
+}
+
+.text--contrast {
+	color: #ffffff;
+}
+
+.connect__desc {
+	margin: 0 0 31px;
+
+	text-align: center;
+}
+
+.connect__desc *:not(:last-child) {
+	margin: 0 0 10px;
+}
+
+.connect__btn {
+	width: 100%;
+	max-width: 241px;
+
+	margin: 0 auto;
+}
+
+.btn--contrast {
+	background: #cda274;
+
+	color: #ffffff;
+}
