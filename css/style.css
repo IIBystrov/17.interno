@@ -410,6 +410,29 @@
 	width: 100%;
 }
 
+.article-card__desc--column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+
+	width: 100%;
+}
+
+.article-card__contain {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: nowrap;
+
+	width: 100%;
+}
+
+.article-card__header {
+	margin: 0 0 10px;
+}
+
 
 /* .specific */
 
@@ -500,3 +523,6 @@
 	border: 1px solid #e7e7e7;
 	border-radius: 62px;
 }
+
+/* .article-card */
+
