@@ -285,4 +285,15 @@
 	border-radius: 30px;
 }
 
+.card__header {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: nowrap;
+	gap: 20px;
 
+	width: 100%;
+
+	margin: 0 0 25px;
+}
