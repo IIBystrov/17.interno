@@ -346,3 +346,29 @@
 
 	width: 100%;
 }
+
+
+/* .projects */
+
+.projects {
+	width: 100%;
+}
+
+.projects__title {
+	margin: 0 0 20px;
+
+	text-align: center;
+}
+
+.projects__desc {
+	width: 100%;
+	max-width: 786px;
+
+	margin: 0 auto;
+
+	text-align: center;
+}
+
+.projects__desc *:not(:last-child) {
+	margin: 0 0 10px;
+}
