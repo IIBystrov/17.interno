@@ -271,3 +271,7 @@
 
 	width: 100%;
 }
+
+.reviews__item {
+	flex: 0 0 356px;
+}
