@@ -125,9 +125,10 @@
 
 .btn {
 	display: inline-block;
+
 	margin: 0 auto;
 
-	padding: 22px 67px 22px 34px;
+	padding: 22px 22px 22px 34px;
 
 	background: #292f36;
 	border: 1px solid inherit;
@@ -137,6 +138,15 @@
 	text-transform: capitalize;
 	letter-spacing: 0.72px;
 	color: #ffffff;
+}
+
+.btn__container {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 15px;
+
 }
 
 
@@ -685,4 +695,8 @@
 .active-link,
 .nav__link--active {
 	color: #cda274;
+}
+
+svg {
+	width: 30px;
 }
