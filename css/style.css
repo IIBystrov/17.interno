@@ -352,6 +352,8 @@
 
 .projects {
 	width: 100%;
+
+	margin: 0 0 80px;
 }
 
 .projects__title {
@@ -385,6 +387,8 @@
 }
 
 .projects__item {
+	margin: 0 0 40px;
+
 	overflow: hidden;
 
 	border-radius: 0 90px 0 0;
