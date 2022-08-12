@@ -636,3 +636,11 @@
 	justify-content: space-between;
 	align-items: flex-start;
 }
+
+.footer__subtitle {
+	margin: 0 0 22px;
+}
+
+.footer__point {
+	margin: 0 0 30px;
+}
