@@ -237,3 +237,16 @@
 
 	margin: 0 0 50px;
 }
+
+
+/* .reviews */
+
+.reviews {
+	width: 100%;
+
+	margin: 0 0 140px;
+	padding: 103px 0 0;
+
+	background: #f4f0ec;
+	border-radius: 70px;
+}
