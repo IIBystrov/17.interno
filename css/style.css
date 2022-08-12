@@ -622,3 +622,17 @@
 .footer__container:not(:last-child) {
 	margin: 0 0 140px;
 }
+
+.footer__list {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.contacts {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+}
