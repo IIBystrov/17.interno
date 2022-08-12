@@ -372,3 +372,14 @@
 .projects__desc *:not(:last-child) {
 	margin: 0 0 10px;
 }
+
+.projects__list {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: stretch;
+	flex-wrap: wrap;
+	gap: 20px;
+
+	width: 100%;
+}
