@@ -383,3 +383,25 @@
 
 	width: 100%;
 }
+
+.projects__item {
+	overflow: hidden;
+
+	border-radius: 0 90px 0 0;
+}
+
+/* .article-card */
+
+.article-card__img-contain {
+	margin: 0 0 25px;
+}
+
+.article-card__desc {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: nowrap;
+
+	width: 100%;
+}
