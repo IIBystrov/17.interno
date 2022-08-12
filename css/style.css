@@ -409,3 +409,23 @@
 
 	width: 100%;
 }
+
+
+/* .specific */
+
+.specific {
+	padding: 140px 120px;
+
+	background: #f4f0ec;
+}
+
+.specific__list {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: stretch;
+	flex-wrap: wrap;
+	gap: 16px;
+
+	width: 100%;
+}
