@@ -414,7 +414,7 @@
 /* .specific */
 
 .specific {
-	padding: 140px 120px;
+	padding: 140px 0;
 
 	background: #f4f0ec;
 }
@@ -428,4 +428,24 @@
 	gap: 16px;
 
 	width: 100%;
+
+	margin: 0 auto;
+}
+
+.specific__item {
+	flex: 0 0 288px;
+
+	text-align: center;
+}
+
+.specific__item:not(:last-child) {
+	border-right: 1px solid #cda274;
+}
+
+.specific__nam {
+	margin: 0 0 10px;
+
+	font: normal 400 85px/1.5 "DM Serif Display", serif;
+	letter-spacing: 1.7px;
+	color: #cda274;
 }
