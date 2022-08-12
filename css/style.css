@@ -618,10 +618,14 @@
 	gap: 16px;
 
 	width: 100%;
+
+	margin: 0 0 110px;
 }
 
-.footer__container:not(:last-child) {
-	margin: 0 0 110px;
+.footer__copyright {
+	padding-top: 35px;
+	
+	border-top: 1px solid #e5e5e5;
 }
 
 .footer__list {
