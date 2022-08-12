@@ -274,15 +274,15 @@
 
 .reviews__item {
 	flex: 0 0 356px;
+
+	background: #ffffff;
+	border-radius: 30px;
 }
 
 .card {
 	width: 100%;
 
 	padding: 50px 45px 45px 35px;
-
-	background: #ffffff;
-	border-radius: 30px;
 }
 
 .card__header {
@@ -310,4 +310,20 @@
 	display: block;
 
 	width: 100%;
+}
+
+.text--min {
+	font: normal 400 18px/1.5 "Jost", sans-serif;
+	letter-spacing: 0.22px;
+	color: #4d5053;
+}
+
+.text--standart {
+	font: normal 400 20px/1.5 "Jost", sans-serif;
+	letter-spacing: 0.22px;
+	color: #4d5053;
+}
+
+.card__contain *:not(:last-child) {
+	margin: 0 0 10px;
 }
