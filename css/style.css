@@ -450,3 +450,32 @@
 	letter-spacing: 1.7px;
 	color: #cda274;
 }
+
+
+/* .blog */
+
+.blog {
+	width: 100%;
+
+	margin: 0 0 100px;
+}
+
+.blog__title {
+	margin: 0 0 21px;
+
+	text-align: center;
+}
+
+.blog__desc {
+	width: 100%;
+	max-width: 589px;
+
+	margin: 0 auto 70px;
+
+	text-align: center;
+	color: #4d5053;
+}
+
+.blog__desc *:not(:last-child) {
+	margin: 0 0 10px;
+}
