@@ -110,6 +110,10 @@
 	transition: transform 0.3s ease-in;
 }
 
+.burger__line--first {
+	transform: rotate(45deg);
+}
+
 /* .intro */
 
 .intro {
