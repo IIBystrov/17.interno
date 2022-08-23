@@ -78,7 +78,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	gap: 5px;
+	gap: 7px;
 
 	height: 32px;
 
@@ -112,6 +112,10 @@
 
 .burger__line--first {
 	transform: rotate(45deg);
+}
+
+.burger__line--last {
+	transform: rotate(-45deg);
 }
 
 /* .intro */
