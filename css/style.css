@@ -114,6 +114,10 @@
 	transform: rotate(45deg);
 }
 
+.burger__line--center {
+	transform: scaleY(0);
+}
+
 .burger__line--last {
 	transform: rotate(-45deg);
 }
