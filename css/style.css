@@ -85,6 +85,16 @@
 	background: inherit;
 }
 
+.header__burger {
+	display: none;
+}
+
+@media (max-width: 750px) {
+	.header__burger {
+		display: flex;
+	}
+}
+
 
 .burger__line {
 	display: block;
@@ -102,6 +112,7 @@
 }
 
 .burger__line:nth-child(2) {
+	transform-origin: 0% 0%;
 	transition: transform 0.2s ease-in;
 }
 
