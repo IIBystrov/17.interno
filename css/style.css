@@ -69,6 +69,22 @@
 	width: 100%;
 }
 
+
+/* .burger */
+
+.burger {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	width: 32px;
+	height: 32px;
+
+	background: inherit;
+}
+
+
 /* .intro */
 
 .intro {
